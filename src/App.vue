@@ -2,18 +2,21 @@
   <div id="app">
     <HeaderComp/>
     <ContentComp/>
+    <BlueComp/>
   </div>
 </template>
 
 <script>
 import HeaderComp from './components/HeaderComp.vue'
 import ContentComp from './components/ContentComp.vue'
+import BlueComp from './components/BlueComp.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComp,
-    ContentComp
+    ContentComp,
+    BlueComp
   }
 }
 </script>
@@ -32,6 +35,6 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 </style>
