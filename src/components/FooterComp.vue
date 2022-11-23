@@ -72,12 +72,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    overflow: hidden;
 }
 
+ul{
+    text-align: start;
+}
 li{
     font-size: 12px;
     color: gray;
-    text-align: start;
 }
 
 .lists{
