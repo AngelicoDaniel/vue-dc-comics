@@ -1,18 +1,45 @@
 <template>
   <div>
     <img src="../assets/img/dc-logo.png" alt="DC-logo">
-    <ul>
-      <li>CHARACTERS</li>
-      <li>COMICS</li>
-      <li>MOVIES</li>
-      <li>TV</li>
-      <li>GAMES</li>
-      <li>COLLECTIBLES</li>
-      <li>VIDEOS</li>
-      <li>FANS</li>
-      <li>NEWS</li>
-      <li>SHOP</li>
-    </ul>
+    <nav>
+        <ul>
+          <li>
+            <a href="#">CHARACTERS</a>
+          </li>
+          <li>
+            <a href="#">COMICS</a>
+          </li>
+          <li>
+            <a href="#">MOVIES</a>
+          </li>
+          <li>
+            <a href="#">TV</a>
+          </li>
+          <li>
+            <a href="#">GAMES</a>
+          </li>
+          <li>
+            <a href="#">COLLECTIBLES</a>
+          </li>
+          <li>
+            <a href="#">SHOP</a>
+          </li>
+          <li>
+            <a href="#">VIDEOS</a>
+          </li>
+          <li>
+            <a href="#">FANS</a>
+          </li>
+          <li>
+            <a href="#">NEWS</a>
+          </li>
+          <li>
+            <a href="#">SHOP</a>
+          </li>
+
+      </ul>
+    </nav>
+
   </div>
 </template>
 
@@ -24,6 +51,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -36,6 +68,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  text-decoration: none;
+  color: black;
 }
 </style>
