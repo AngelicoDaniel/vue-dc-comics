@@ -4,6 +4,7 @@
     <ContentComp/>
     <BlueComp/>
     <FooterComp/>
+    <LastComp/>
   </div>
 </template>
 
@@ -12,6 +13,8 @@ import HeaderComp from './components/HeaderComp.vue'
 import ContentComp from './components/ContentComp.vue'
 import BlueComp from './components/BlueComp.vue'
 import FooterComp from './components/FooterComp.vue'
+import LastComp from './components/LastComp.vue'
+
 
 
 export default {
@@ -20,7 +23,8 @@ export default {
     HeaderComp,
     ContentComp,
     BlueComp,
-    FooterComp
+    FooterComp,
+    LastComp
   }
 }
 </script>
