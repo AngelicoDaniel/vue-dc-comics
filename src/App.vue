@@ -14,9 +14,6 @@ import MainComp from './components/MainComp.vue'
 import BlueComp from './components/BlueComp.vue'
 import FooterComp from './components/FooterComp.vue'
 import LastComp from './components/LastComp.vue'
-
-
-
 export default {
   name: 'App',
   components: {

@@ -12,8 +12,7 @@
             :dettagliCard="elem" />
 
         </div>
-
-
+        <LoadComp/>
        </div>
 
      
@@ -22,11 +21,14 @@
   
   <script>
 import CardsComp from './CardsComp.vue'
+import LoadComp from './LoadComp.vue'
+
 
   export default {
     name: 'MainComp',
     components: {
-      CardsComp
+      CardsComp,
+      LoadComp
     },
     data() {
       return{
