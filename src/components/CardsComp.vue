@@ -23,6 +23,7 @@
 
   .card{
     width: calc(100% / 6);
+
     img{
         height: 150px;
         aspect-ratio: 1/1;
@@ -31,6 +32,7 @@
     }
     div{
         text-align: center;
+        margin-bottom: 20px;
     }
   }
 

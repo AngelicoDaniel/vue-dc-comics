@@ -1,6 +1,6 @@
 <template>
     <div class="black">
-       <h2>--&gt; jumbo goes here &lt;-- </h2>
+       <div class="jumbo"></div>
 
        <div class="container">
 
@@ -129,6 +129,13 @@ h2{
 .cards{
   display: flex;
   flex-wrap: wrap;
+}
+
+.jumbo{
+  background-image: url('../assets/img/jumbotron.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  
 }
 
 
