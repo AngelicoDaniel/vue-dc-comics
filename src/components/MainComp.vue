@@ -2,7 +2,11 @@
     <div class="black">
        <div class="jumbo"></div>
 
+
+
        <div class="container">
+        
+        <CurrentComp />
 
         <div class="cards">
 
@@ -22,13 +26,16 @@
   <script>
 import CardsComp from './CardsComp.vue'
 import LoadComp from './LoadComp.vue'
+import CurrentComp from './CurrentComp.vue'
+
 
 
   export default {
     name: 'MainComp',
     components: {
       CardsComp,
-      LoadComp
+      LoadComp,
+      CurrentComp
     },
     data() {
       return{
