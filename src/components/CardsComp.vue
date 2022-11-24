@@ -23,6 +23,15 @@
 
   .card{
     width: calc(100% / 6);
+    img{
+        height: 150px;
+        aspect-ratio: 1/1;
+        padding: 10px;
+        margin: 10px;
+    }
+    div{
+        text-align: center;
+    }
   }
 
 
