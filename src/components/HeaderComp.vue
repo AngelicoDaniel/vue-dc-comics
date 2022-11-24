@@ -6,7 +6,7 @@
           <li>
             <a href="#">CHARACTERS</a>
           </li>
-          <li>
+          <li class="active">
             <a href="#">COMICS</a>
           </li>
           <li>
@@ -56,6 +56,10 @@ div{
   justify-content: space-around;
   align-items: center;
   margin: 5px;
+}
+
+.active{
+  border-bottom: 2px solid #0282f9;
 }
 
 ul {

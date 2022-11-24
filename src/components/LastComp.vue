@@ -43,7 +43,7 @@ h3{
 
 .signUp{
     color: white;
-    padding: 15px;
+    padding: 1px;
     border: 2px solid #3B7CFF;
 }
   </style>
