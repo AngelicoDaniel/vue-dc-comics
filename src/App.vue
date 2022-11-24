@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <HeaderComp/>
-    <ContentComp/>
+    <MainComp/>
     <BlueComp/>
     <FooterComp/>
     <LastComp/>
@@ -10,7 +10,7 @@
 
 <script>
 import HeaderComp from './components/HeaderComp.vue'
-import ContentComp from './components/ContentComp.vue'
+import MainComp from './components/MainComp.vue'
 import BlueComp from './components/BlueComp.vue'
 import FooterComp from './components/FooterComp.vue'
 import LastComp from './components/LastComp.vue'
@@ -21,7 +21,7 @@ export default {
   name: 'App',
   components: {
     HeaderComp,
-    ContentComp,
+    MainComp,
     BlueComp,
     FooterComp,
     LastComp
