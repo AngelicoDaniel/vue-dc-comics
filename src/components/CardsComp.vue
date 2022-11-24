@@ -1,7 +1,9 @@
 <template>
     <div class="card">
-       <img src="" alt="">
-       <div>titolo prodotto</div>
+
+       <img :src="dettagliCard.thumb" alt="">
+       <div>{{dettagliCard.series}}</div>
+
     </div>
   </template>
   
@@ -10,6 +12,9 @@
 
   export default {
     name: 'CardsComp',
+    props: {
+        dettagliCard: Object
+    }
   }
   </script>
   

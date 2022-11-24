@@ -6,7 +6,11 @@
 
         <div class="cards">
 
-            <CardsComp v-for="n in 7" :key="n" />
+            <CardsComp 
+            v-for="(elem, index) in cards" 
+            :key="index"
+            :dettagliCard="elem" />
+
         </div>
 
 
@@ -24,7 +28,7 @@ import CardsComp from './CardsComp.vue'
     components: {
       CardsComp
     },
-    data(){
+    data() {
       return{
         cards: [
                   {
